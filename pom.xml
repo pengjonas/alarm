@@ -17,25 +17,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.7</java.version>
-        <email.recipient>jonas@trimap.com;max@trimap.com</email.recipient>
+        <java.version>1.8</java.version>
+        <email.recipient>pengjonas@gmail.com</email.recipient>
     </properties>
-    <profiles>
-        <profile>
-            <id>testing</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <properties>
-                <maven.tomcat.path>/alarm</maven.tomcat.path>
-                <maven.tomcat.url>http://web5.corp.trimap.com:8080/manager/text</maven.tomcat.url>
-                <maven.tomcat.update>true</maven.tomcat.update>
-                <tomcat.username>deploy</tomcat.username>
-                <tomcat.password>deploy</tomcat.password>
-                <email.recipient>hdalkie@trimap.com;mknott@trimap.com;max@trimap.com</email.recipient>
-            </properties>
-        </profile>
-    </profiles>
 
     <dependencies>
         <dependency>
