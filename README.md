@@ -8,4 +8,4 @@ With Webjars-locator, requiredJS defines the following modules:
     "angular-ui-router",    
     "bootstrap",
     "underscore",
-    "angular-dynamic-number"
+    "angular-dynamic-number".
